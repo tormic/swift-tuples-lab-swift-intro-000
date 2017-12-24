@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person : (name: String, age: Int) = ("Jack", 30)
 
 
 
@@ -28,11 +28,7 @@
  */
 // write your code here
 
-
-
-
-
-
+print("\(person.name) is \(person.age) years old")
 
 
 /*: question3
@@ -41,7 +37,8 @@
 // write your code here
 
 
-
+person.age += 1
+print("Jack is \(person.age) after his birthday")
 
 
 
@@ -52,6 +49,7 @@
  */
 // write your code here
 
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -64,7 +62,7 @@
  */
 // write your code here
 
-
+var someone:(name:String, age:Int) = ("Paul", 22)
 
 
 
@@ -115,13 +113,13 @@
 
 
 
-
+//----
 
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
 
-
+//-----
 
 
 
